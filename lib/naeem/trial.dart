@@ -10,6 +10,10 @@ class Trial extends StatefulWidget {
 class _TrialState extends State<Trial> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(
+    appbar: Appbar(
+    title: Text("This is a just trial");
+    ),
+    );
   }
 }
